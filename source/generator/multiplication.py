@@ -1,9 +1,8 @@
 from classic import Classic
 
-
-class Addition: #a + b = c
+class Multiplication: #a x b = c
     
-    otype = "addition"
+    otype = "multiplication"
 
     def __init__(self,b_min,b_max,equa=False):
         a = Classic(b_min,b_max,equa,self.otype)
