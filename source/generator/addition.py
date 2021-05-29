@@ -1,9 +1,8 @@
 from random import randint as rdm
 
-class Addition:
+class Addition: #a + b = c
     
     def __init__(self,b_min,b_max,equa=False):
-        #a + b = c
         a = rdm(b_min,b_max) 
         b = rdm(b_min,b_max) 
         c = a + b
