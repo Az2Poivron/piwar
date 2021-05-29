@@ -1,6 +1,6 @@
 from classic import Classic
 
-class Substraction: #a x b = c
+class Substraction: #a - b = c
     
     otype = "substraction"
 
@@ -8,6 +8,3 @@ class Substraction: #a x b = c
         a = Classic(b_min,b_max,equa,self.otype)
         self.str = a.str
         self.answer = a.answer
-
-a = Substraction(10,80)
-print(a.str , a.answer)
