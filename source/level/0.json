@@ -1,0 +1,49 @@
+{ 
+    "ADDITION_ENABLE" : true,
+    "SUBSTRACTION_ENABLE" : true,
+    "MULTIPLICATION_ENABLE" : true,
+    "DIVISION_ENABLE" : true,
+    "EUCLIDE_ENABLE" : true,
+
+    "_comment":"Addition setting for a + b = c",
+    "ADDITION_a_min" : 0,
+    "ADDITION_a_max" : 50,
+    "ADDITION_b_min" : 1,
+    "ADDITION_b_max" : 9,
+    "ADDITION_equa"  : false,
+    
+    "_comment":"Substraction setting for a - b = c",
+    "SUBSTRACTION_a_min" : 11,
+    "SUBSTRACTION_a_max" : 50,
+    "SUBSTRACTION_b_min" : 1,
+    "SUBSTRACTION_b_max" : 9,
+    "SUBSTRACTION_equa"  : false,
+
+    "_comment":"Multiplication setting for a * b = c",
+    "MULTIPLICATION_a_min" : 1,
+    "MULTIPLICATION_a_max" : 4,
+    "MULTIPLICATION_b_min" : 1,
+    "MULTIPLICATION_b_max" : 10,
+    "MULTIPLICATION_equa"  : false,
+
+    "_comment":"Division setting for a / b = c",
+    "DIVISION_b_min" : 2,
+    "DIVISION_b_max" : 10,
+    "DIVISION_c_min" : 2,
+    "DIVISION_c_max" : 10,
+    "DIVISION_equa"  : false,
+
+
+    "_comment":"Euclide setting for ab + r = c  , -1<r<a",
+    "EUCLIDE_a_min" : 2,
+    "EUCLIDE_a_max" : 10,
+    "EUCLIDE_b_min" : 2,
+    "EUCLIDE_b_max" : 10,
+    "EUCLIDE_equa"  : false,
+
+    "_comment":"ENNEMY Setting",
+    "ENNEMY_NUMBER" : 30,
+    "ENNEMY_SPEED" : 10,
+    "ENNEMY_PER_WAVE" : 10
+
+}

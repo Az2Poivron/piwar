@@ -2,9 +2,17 @@ from random import randint as rdm
 
 class Division:       #a / b = c  i.e b x c = a
 
-    def __init__(self,a_min,a_max,b_min,b_max,equa=False): #b_
+    condition = "DIVISION_ENABLE" 
+    
+    def __init__(self,rule):
+        b_min = rule["DIVISION_b_min"]
+        b_max = rule["DIVISION_b_max"]
+        c_min = rule["DIVISION_c_min"]
+        c_max = rule["DIVISION_c_max"]
+        equa  = rule["DIVISION_equa"]
+        
         b = rdm(b_min,b_max) 
-        c = rdm(a_min//b,a_max//b) 
+        c = rdm(c_min,c_max) 
         a = b*c
 
         L = [a,b,c]
