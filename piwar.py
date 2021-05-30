@@ -6,7 +6,7 @@ system("clear")
 print('Here is a test')
 slp(1)
 
-level = 0
+level = "1-0"
 L = gen_list_operation(level)
 
 for operation in L:

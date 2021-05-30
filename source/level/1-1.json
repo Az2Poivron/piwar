@@ -1,0 +1,22 @@
+{ 
+    "ADDITION_ENABLE" : true,
+    "SUBSTRACTION_ENABLE" : false,
+    "MULTIPLICATION_ENABLE" : false,
+    "DIVISION_ENABLE" : false,
+    "EUCLIDE_ENABLE" : false,
+
+    "_comment":"Addition setting for a + b = c",
+    "ADDITION_a_min" : 0,
+    "ADDITION_a_max" : 2,
+    "ADDITION_b_min" : 0,
+    "ADDITION_b_max" : 3,
+    "ADDITION_equa"  : false,
+
+
+    "_comment":"ENNEMY Setting",
+    "ENNEMY_NUMBER" : 30,
+    "ENNEMY_SPEED" : 10,
+    "ENNEMY_PER_WAVE" : 10,
+    "ENNEMY_NEW_PER_WAVE" : 2
+
+}
