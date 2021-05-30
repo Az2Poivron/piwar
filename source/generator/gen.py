@@ -1,10 +1,10 @@
 import json
 from random import randint as rdm , choice
-from addition import Addition 
-from substraction import Substraction
-from multiplication import Multiplication
-from division import Division
-from euclide import Euclide
+from source.generator.addition import Addition 
+from source.generator.substraction import Substraction
+from source.generator.multiplication import Multiplication
+from source.generator.division import Division
+from source.generator.euclide import Euclide
 
 
 
@@ -22,5 +22,3 @@ def gen_list_operation(name): #return list of Operation from a name file
 
 
 L = gen_list_operation("0")
-for line in L:
-    print(line.str)

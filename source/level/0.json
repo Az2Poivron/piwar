@@ -44,6 +44,7 @@
     "_comment":"ENNEMY Setting",
     "ENNEMY_NUMBER" : 30,
     "ENNEMY_SPEED" : 10,
-    "ENNEMY_PER_WAVE" : 10
+    "ENNEMY_PER_WAVE" : 10,
+    "ENNEMY_NEW_PER_WAVE" : 2
 
 }
